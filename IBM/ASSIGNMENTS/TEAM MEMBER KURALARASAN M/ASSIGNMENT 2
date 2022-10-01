@@ -1,0 +1,17 @@
+import random import time  
+ while(l time.sleep(2) #2 seconds  
+ delay  
+ temp=random.randrange(0,100)  
+ hum=random.randrange(0,100)  
+ print("temperature=",temp)  
+ print("humdity=",hum)  
+ if(temp>40 or hum>60): 
+ if(temp>40 and hum>60): #Detection of 
+ High temperature and humdity print("High  
+ temperature and humdity 
+ Detector") elif(hum>60 and temp<40):  
+ #Detection of 
+ High humdity print("High humdity  
+ Detector") else: #Detection of High  
+ temperature print("High temperature  
+ Detector"
